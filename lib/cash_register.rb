@@ -48,7 +48,6 @@ class CashRegister
     if items.length > 0
       @total -= @price
     elsif items.length == 0
-      
       total = 0
    
     end
