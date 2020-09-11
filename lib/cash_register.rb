@@ -44,13 +44,10 @@ class CashRegister
   end
   
   def void_last_transaction
-    
-    
-    
-    #if items.length > 0
-    #  @total -= @price
-    #elsif items.length == 0
-    #  total = 0
+    if items.length > 0
+      @total -= @price
+    elsif items.length == 0
+      total = 0
    
     end
   end
